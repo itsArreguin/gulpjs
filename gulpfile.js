@@ -4,7 +4,7 @@ const gulp = require('gulp'),
 
 
 gulp.task('sass', ()=>
-    gulp.src('../../dashboard/assets/style-sheets/aerostatic-forms.scss')
+    gulp.src('directory/assets/scss/*.scss')
     .pipe(sass())
-    .pipe(gulp.dest('../../dashboard/assets/style-sheets'))
+    .pipe(gulp.dest('directory/assets/css'))
 );
